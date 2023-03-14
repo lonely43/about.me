@@ -1,0 +1,416 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+   margin: 0;
+   paddin: 0;
+}
+body{
+   background-image: url(img/backgroundc.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+   max-width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: top;
+   font-family: 'Poppins', sans-serif;
+   transition: 0.6s;
+}
+.main{
+   margin-top: 40px;
+   background-color: rgb(42, 42, 42);
+   box-shadow: 0px 0px 2vw 2px black;
+   border-radius: 2vw;
+   width: 50vw;
+   height: 48vw;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   overflow: hidden;
+}
+.scenery{
+   transition: 0.6s;
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+   padding: 0.3vw 0;
+   gap: 0.5vw;
+   height: 2vw;
+   width: 100%;
+   background-color: gray;
+}
+#point1{
+   background-color: rgb(243, 100, 100);
+   border-radius: 200px;
+   width: 1.3vw;
+   height: 1.3vw;
+}
+#point2{
+   background-color: rgb(243, 207, 100);
+   border-radius: 200px;
+   width: 1.3vw;
+   height: 1.3vw;
+}
+#point3{
+   background-color: rgb(90, 207, 86);
+   border-radius: 200px;
+   width: 1.3vw;
+   height: 1.3vw;
+   margin-right: 2vw;
+}
+#point1:hover{
+   cursor: pointer;
+}
+#point2:hover{
+   cursor: pointer;
+}
+#point3:hover{
+   cursor: pointer;
+}
+#point1:active{
+   background-color: rgb(221, 92, 92);
+}
+#point2:active{
+   background-color: rgb(207, 177, 92);
+}
+#point3:active{
+   background-color: rgb(83, 189, 92);
+}
+
+
+.about{
+   display: flex;
+   align-self: flex-start;
+   padding: 2vw 0vw 3vw 3vw;
+}
+.about .iconaa{
+   border-radius: 2vw;
+   width: 13vw;
+   height: 13vw;
+   box-shadow: 0 0 1vw 1px black;
+}
+.about .text{
+   font-size: 2vw;
+   margin-left: 1vw;
+}
+.text h1{
+   display: flex;
+   color: aliceblue;
+   text-shadow: 0 0 5px black;
+}
+.TextIcon{
+   width: 2vw;
+   height: 2vw;
+}
+.text p{
+   color: rgb(207, 211, 216);
+}
+
+
+.progress{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   width: 100%;
+   padding-bottom: 2vw;
+}
+.htmlProgress{
+   display: flex;
+   align-items: center;
+   width: 95%;
+}
+.htmlText{
+   width: 7vw;
+   color: rgb(239, 113, 113);
+   text-shadow: 0 0 0.2vw rgb(239, 113, 113);
+   font-size: 2vw;
+   font-weight: 900;
+}
+.html{
+   background-color: rgb(115, 115, 115);
+   border-radius: 10px;
+   width: 80%;
+   height: 45%;
+}
+.htmlValue{
+   background-color: rgb(255, 255, 255);
+   box-shadow: 0 0 0.6vw 0 rgb(255, 255, 255);
+   border-radius: 10px;
+   width: 100%;
+   height: 100%;
+   z-index: 10;
+}
+
+.CSSProgress{
+   display: flex;
+   align-items: center;
+   width: 95%;
+}
+.CSSText{
+   width: 7vw;
+   color: rgb(131, 180, 235);
+   text-shadow: 0 0 0.2vw rgb(131, 180, 235);
+   font-size: 2vw;
+   font-weight: 900;
+}
+.CSS{
+   background-color: rgb(115, 115, 115);
+   border-radius: 10px;
+   width: 80%;
+   height: 45%;
+}
+.CSSValue{
+   background-color: rgb(255, 255, 255);
+   box-shadow: 0 0 0.6vw 0 rgb(255, 255, 255);
+   border-radius: 10px;
+   width: 100%;
+   height: 100%;
+   z-index: 10;
+}
+
+.JSProgress{
+   display: flex;
+   align-items: center;
+   width: 95%;
+}
+.JSText{
+   width: 7vw;
+   color: rgb(247, 239, 98);
+   text-shadow: 0 0 0.2vw rgb(247, 239, 98);
+   font-size: 2vw;
+   font-weight: 900;
+}
+.JS{
+   background-color: rgb(115, 115, 115);
+   border-radius: 10px;
+   width: 80%;
+   height: 45%;
+}
+.JSValue{
+   background-color: rgb(255, 255, 255);
+   box-shadow: 0 0 0.6vw 0 rgb(255, 255, 255);
+   border-radius: 10px;
+   width: 95%;
+   height: 100%;
+   z-index: 10;
+}
+
+.REACTProgress{
+   display: flex;
+   align-items: center;
+   width: 95%;
+}
+.REACTText{
+   width: 7vw;
+   color: rgb(153, 106, 241);
+   font-size: 2vw;
+   font-weight: 900;
+   text-shadow: 0 0 0.2vw rgb(153, 106, 241);
+}
+.REACT{
+   background-color: rgb(115, 115, 115);
+   border-radius: 10px;
+   width: 80%;
+   height: 45%;
+}
+.REACTValue{
+   background-color: rgb(255, 255, 255);
+   box-shadow: 0 0 0.6vw 0 rgb(255, 255, 255);
+   border-radius: 10px;
+   width: 75%;
+   height: 100%;
+   z-index: 10;
+}
+
+
+.socialMedia{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   padding-bottom: 1vw;
+}
+.socialMedia h1{
+   font-size: 3vw;
+   color: aliceblue;
+   text-align: center;
+   text-transform: uppercase;
+   padding-bottom: 1vw;
+}
+.socialMedia ul{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-decoration: none;
+   gap: 10px;
+   list-style: none;
+   padding: 0;
+   margin: 0;
+}
+.socialMedia ul a{
+   color: rgb(136, 136, 136);
+   text-decoration: none;
+}
+.socialMedia ul img{
+   box-shadow: 0 0 10px 0px black;
+   border-radius: 1.2vw;
+   width: 5vw;
+   height: 5vw;
+}
+
+@media screen and (max-width: 800px) 
+{
+   .main{
+      width: 90vw;
+      height: auto;
+      border-radius: 4vw;
+   }
+   .scenery{
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      padding: 0.8vw 0;
+      gap: 0.5vw;
+      height: 3vw;
+      width: 100%;
+      background-color: gray;
+   }
+   #point1{
+      background-color: rgb(243, 100, 100);
+      border-radius: 200px;
+      width: 1.9vw;
+      height: 1.9vw;
+   }
+   #point2{
+      background-color: rgb(243, 207, 100);
+      border-radius: 200px;
+      width: 1.9vw;
+      height: 1.9vw;
+   }
+   #point3{
+      background-color: rgb(90, 207, 86);
+      border-radius: 200px;
+      width: 1.9vw;
+      height: 1.9vw;
+      margin-right: 4vw;
+   }
+
+   .about{
+      display: flex;
+      align-self: flex-start;
+      padding: 2vw 0vw 3vw 3vw;
+   }
+   .about .iconaa{
+      border-radius: 2vw;
+      width: 25vw;
+      height: 25vw;
+      box-shadow: 0 0 1vw 1px black;
+   }
+   .about .text{
+      font-size: 4vw;
+      margin-left: 3vw;
+   }
+   .text h1{
+      display: flex;
+      color: aliceblue;
+      text-shadow: 0 0 10px black;
+   }
+   .TextIcon{
+      width: 4vw;
+      height: 4vw;
+   }
+
+
+   .htmlProgress{
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 10px;
+   }
+   .htmlText{
+      display: flex;
+      justify-content: center;
+      text-shadow: 0 0 0.4vw rgb(239, 113, 113);
+      width: 100%;
+      font-size: 5vw;
+      font-weight: 900;
+   }
+   .html{
+      background-color: rgb(115, 115, 115);
+      width: 80%;
+      height: 3vw;
+   }
+
+   .CSSProgress{
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 10px;
+   }
+   .CSSText{
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      font-size: 5vw;
+      font-weight: 900;
+      text-shadow: 0 0 0.4vw rgb(131, 180, 235);
+   }
+   .CSS{
+      background-color: rgb(115, 115, 115);
+      width: 80%;
+      height: 3vw;
+   }
+   .JSProgress{
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 10px;
+   }
+   .JSText{
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      font-size: 5vw;
+      font-weight: 900;
+      text-shadow: 0 0 0.4vw rgb(247, 239, 98);
+   }
+   .JS{
+      background-color: rgb(115, 115, 115);
+      width: 80%;
+      height: 3vw;
+   }
+   .REACTProgress{
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 10px;
+   }
+   .REACTText{
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      font-size: 5vw;
+      font-weight: 900;
+      text-shadow: 0 0 0.4vw rgb(153, 106, 241);
+   }
+   .REACT{
+      background-color: rgb(115, 115, 115);
+      width: 80%;
+      height: 3vw;
+   }
+
+   .socialMedia{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+   }
+   .socialMedia h1{
+      font-size: 6vw;
+      color: aliceblue;
+   }
+   .socialMedia ul{
+      gap: 10px;
+   }
+   .socialMedia ul img{
+      width: 7vw;
+      height: 7vw;
+   }
+}
